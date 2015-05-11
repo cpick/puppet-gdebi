@@ -1,6 +1,6 @@
 # Alternative gdebi-based package provider for Puppet
 #
-# Copyright (c) 2015 Chris Pick
+# Copyright 2015 Chris Pick
 # Licensed under the Apache License, Version 2.0
 
 Puppet::Type.type(:package).provide(:gdebi, :parent => :dpkg, :source => :dpkg) do
