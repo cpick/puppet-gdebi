@@ -7,8 +7,6 @@
   "source": "https://github.com/cpick/puppet-gdebi.git",
   "project_page": "https://github.com/cpick/puppet-gdebi",
   "issues_url": "https://github.com/cpick/puppet-gdebi/issues",
-  "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
-  ]
+  "dependencies": []
 }
 
