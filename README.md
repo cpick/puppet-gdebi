@@ -33,12 +33,12 @@ The gdebi provider fills this gap.
 
 ## Usage
 
-include gdebi
+    include gdebi
 
-package { 'foo':
-    provider => gdebi,
-    source   => "/path/to/foo.deb",
-}
+    package { 'foo':
+        provider => gdebi,
+        source   => "/path/to/foo.deb",
+    }
 
 ## Limitations
 
